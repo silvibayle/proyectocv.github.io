@@ -1,6 +1,4 @@
 img{
-    display:block;
-    margin:auto;
     margin-top: 10px;
     border-width: 3px;
     border-style: solid;
@@ -50,4 +48,11 @@ header{
     border-width: thin;
     border-radius: 50px;
     border-color: black;
+}
+.profile-container{
+    text-align: center;
+}
+body{
+    margin:0px;
+    padding: 0px;
 }
