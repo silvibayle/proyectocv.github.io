@@ -34,16 +34,23 @@ header{
 .nav-links{
     background-color:rgba(32, 178, 171, 0.691);
     margin:0px;
+    text-align: center;
+    padding:0px;
 }
 .nav-links li{
     display: inline-block;
-    padding: 50px 20px;
+    padding: 0px 20px;
     text-align: center;
     list-style: none;
 }
-.nav-links li a:hover{
+.nav-links {
+    text-align: center;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
     color:black;
-    font-family: 'Josefin Sans', sans-serif;
 }
 footer{
     text-align: center;
