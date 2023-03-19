@@ -1,6 +1,10 @@
 img{
     display:block;
     margin:auto;
+    margin-top: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
 }
 .presentacion {
     text-align: center;
@@ -9,15 +13,23 @@ img{
     border-width: thin;
     padding: 1%;
     width: auto;
+    display: block;
+    margin-inline: auto;
+    width: max-content;
+}
+.descripcion{
+    display: inline-block;
 }
 h1{
     text-align: center
 }
-body{
-    background-color: grey
+header{
+    background-color: whitesmoke;
+    margin-top: 0px;
 }
 .nav-links{
-    background-color:rgb(245, 243, 220)
+    background-color:rgba(32, 178, 171, 0.691);
+    margin:0px;
 }
 .nav-links li{
     display: inline-block;
@@ -28,16 +40,12 @@ body{
 .nav-links li a:hover{
     color:black;
 }
-.footer .btn button{
-    font-weight: 700;
-    color:antiquewhite;
-    padding: 9px 25px;
-    border-width: thin;
-    border-radius: 50px;
+.footer{
+    background-color:rgba(32, 178, 171, 0.691);
 }
 .boton-js{
     font-weight: 700;
-    color:grey;
+    color:withe;
     padding: 9px 25px;
     border-width: thin;
     border-radius: 50px;
