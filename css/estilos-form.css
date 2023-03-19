@@ -1,5 +1,6 @@
 body{
-    background-color:grey
+    background-color:whitesmoke;
+    font-family: 'Crimson Text', serif;
 }
 label, input{
     width: 100%;
@@ -18,5 +19,15 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+h3{
+    text-align:left
+}
+p{
+    font-family: 'Crimson Text', serif;
+    margin-inline: left;
+    width: max-content;
+    padding: 1%;
 
 }

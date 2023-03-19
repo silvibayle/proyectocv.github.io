@@ -16,8 +16,13 @@ img{
     width: max-content;
     font-family: 'Crimson Text', serif;
 }
-.descripcion{
-    display: inline-block;
+.descripcion {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.descripcion h3{
+    text-align: center;
 }
 h1{
     text-align: center
@@ -64,6 +69,7 @@ body{
 }
 .laboral h3, h4{
     margin-left: 10px;
+    
 }
 .formacion p{
     font-family: 'Crimson Text', serif;
